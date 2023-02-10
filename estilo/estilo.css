@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* estilo de index */
+header{
+    background-color: rgb(127, 243, 189);
+    padding: 20px;
+    font-family:'Rubik', sans-serif;
+}
+
+body{
+    background-color: white;
+    font-family:'Rubik', sans-serif;
+}
+
+.bigBen{
+    text-align: center;
+}
+
+.listaIndex li{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: coral;
+    font-style: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.somosBigBen{
+    text-align: center;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.valores2{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: thistle;
+}
+.valores{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.valores p{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.valores div{
+    height: 300px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/* estilo de footer */
+footer{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoFooter{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infoFooter p{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: small;
+}
+
+footer p{
+    text-align: center;
+}
+
+.logoWap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* estilo de sección cursos */
+.tituloCursos{
+    padding: 20px;
+    margin:30px;
+    background-color: darkorchid;
+    text-align: center;
+}
+
+.cursos{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cursos img{
+    height: 200px;
+    width: 300px;
+}
+
+.cursosAlumnos{
+    margin: 20px;
+    padding: 20px;
+    background-color: darkorchid;
+}
+
+.cursos h3{
+    margin-bottom: 10px;
+}
+
+
+/* estilo de sección cambridge */
+
+.cambridgeTitulo1{
+    margin: 30px;
+    padding: 20px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.cambridgeTitulo{
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 10px solid salmon;
+    text-align: center;
+    line-height: 30px;
+}
+
+.cambridgeLista2{
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 10px solid salmon;
+    text-align: center;
+    line-height: 30px;
+}
+
+.listaCambridge {
+    list-style-type: none;
+}
+
+.nivelesExamen{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.seccionPrincipal{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+}
+
+.imgCambridge{
+    margin: 30px;
+
+}
+
+.examenes{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenesAlumnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fotosAlumnas{
+    margin: 20px;
+    text-align: center;
+}
+
+.imagenesAlumnas img {
+    margin: 10px;
+    width: 200px;
+    height: 200px
+}
+
+.cambridgeVideo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cambridgeVideo iframe{
+    margin: 10px;
+    border: solid 5px rgb(109, 18, 18);
+    border-radius: 10px;
+}
+
+/* estilo de cursos | adolescentes */
+
+.tiposCursos{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tiposCursosLista li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: coral; 
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+
+/* estilo de cursos | niños | adolescentes */
+
+.serParte{
+    height: 950px;
+    width: 1300px;
+    margin: 30px;
+    padding: 30px;
+    background-color: darkorange;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.serPartePadre{
+    display: flex;
+    flex-direction: row;
+}
+
+.serParteLista{
+        list-style-type: none;
+}
+
+.pilares{
+    font-style: normal;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.gruposNiños{
+    height: 270px;
+    width: 600px;
+    margin: 30px;
+    padding: 30px;
+    background-color: darkorange;
+    line-height: 30px;
+
+}
+
+.cursosKids{
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    border: 10px solid violet;
+}
+
+.formularioInscripcion{
+    height: 300px;
+    width: 550px;
+    margin: 30px;
+    padding: 10px;
+    border: 10px solid violet;
+    background-color: deepskyblue;
+    line-height: 30px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.tituloForm{
+    font-weight: bolder;
+    color: rgb(38, 0, 255);
+    font-size: larger;
+}
+
+.clasesForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submit{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.recordatorio{
+    font-size: smaller;
+    line-height: 15px;
+    text-align: center;
+}
+
+.descripCurso{
+    font-size: small;
+    text-align: center;
+}
+
+/* estilo de contacto */
+
+.mapaBigBen{
+    margin: 20px;
+}
+
+.sumateContacto{
+    padding: 20px;
+    margin:30px;
+    background-color: darkorchid;
+    text-align: center;
+}
+
+.seccionesContacto{
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+
+.seccionesContacto p {
+    margin-left: 20px;
+}
+
+.masContactos div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.masContactos p{
+    text-align: center;
+}
+
+.masContactos{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactosDiv{
+    height: 350px;
+    width: 350px;
+    padding: 10px;
+    background-color: rgb(208, 174, 240);
+}
+
+.contactosDiv div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ubicacion{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleMaps{
+    height: 50px;
+    width: 50px;
+}
+
+.mapsPadre{
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconosContacto{
+    height: 50px;
+    width: 50px;
+}
+
+.infoAdicional{
+    font-weight: normal;
+}
+
+/* estilo sección UTN */
+
+.infoUtn div{
+    margin: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.infoUtn, .imgConvenio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoUtn h3{
+    color: rgb(174, 231, 87);
+}
+
+
+.imgConvenioUtn{
+    margin: 15px;
+    height: 100px;
+    width: 300px;
+}
+
+.imgConvenioBb{
+    margin: 15px;
+    height: 150px;
+    width: 300px;
+}
+
+.utnPic{
+    height: 300px;
+    width: 600px;
+}
+
+.utnBigBen{
+    height: 400px;
+    width: 400px;
+}
+
+.utnDudas{
+    margin: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.botonInfo{
+    margin: 20px;
+    padding: 10px;
+    border: solid 2px rgb(16, 16, 109);
+    border-radius: 10px;
+    background-color: rgb(174, 231, 87);
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* estilo de historia (conocenos) */
+
+.quienesSomosBigBen{
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+.quienesSomos{
+    line-height: 30px;
+    text-align: justify;
+    margin: 30px;
+
+}
+
+.quienesSomos h4{
+    color: blueviolet;
+    margin: 10px;
+}
+
+.paola{
+    height: 650px;
+    width: 500px;
+}
+
+.somosBB {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

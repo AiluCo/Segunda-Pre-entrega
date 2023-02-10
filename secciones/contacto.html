@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/estilo.css">
+    <title>Contactanos</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="bigBen">BIG BEN SCHOOL OF ENGLISH</h1>
+        <h2 class="bigBen">Learning together</h2>
+        <nav>
+            <ul class="listaIndex">
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="./cursos.html">NUESTROS CURSOS</a>
+                </li>
+
+                <li>
+                    <a href="./historia.html">CONOCENOS</a>
+                </li>
+
+                <li>
+                    <a href="./cambridge.html">EXÁMENES CAMBRIDGE</a>
+                </li>
+
+                <li>
+                    <a href="./utn.html">EXÁMENES UTN</a>
+                </li>
+
+                <li>
+                    <a href="./contacto.html">CONTACTANOS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="sumateContacto">
+        <h2>SUMATE A BIG BEN</h2>
+    </section>
+
+    <section class="seccionesContacto">
+        <section class="ubicacion">
+            <div>
+                <div class="mapsPadre">
+                    <img class="googleMaps" src="../img/google-maps.png" alt="icono google maps">
+                    <p> Encontranos en Mitre 657, Tandil, Buenos Aires, Argentina </p>
+                </div>
+                <iframe class="mapaBigBen"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.7880724188276!2d-59.13934108509393!3d-37.323847413940186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f904006f477%3A0x6380946fdc875fd3!2sMitre%20657%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1675087394478!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="masContactos">
+
+            <div class="mapsPadre">
+                <img class="iconosContacto" src="../img/icons8-whatsapp.svg" alt="icono de whatsapp">
+                <div>
+                    <p>¿Queres contactarnos por WhatsApp?</p>
+                    <p class="infoAdicional">Nos podes enviar un mensaje al 249 4 476319 </p>
+                </div>
+            </div>
+
+
+            <div class="mapsPadre">
+                <img class="iconosContacto" src="../img/open-envelope.png" alt="icono de mail">
+                <div>
+                    <p>También te dejamos nuestra casilla de mail</p>
+                    <p class="infoAdicional">bigbentandil47@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contactosDiv">
+                <form action="formulario.php" method="post"></form>
+                <fieldset>
+                    <legend>DEJANOS TU CONSULTA</legend>
+
+                    <div>
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+
+                    <div>
+                        <label for="nac">Fecha de Nacimiento</label>
+                        <input type="date" name="nac" id="nac" required>
+                    </div>
+
+                    <div>
+                        <label for="origen">¿Dónde vivis?</label>
+                        <input type="text" name="origen" id="origen">
+                    </div>
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input type="number" name="edad" id="edad" required>
+                    </div>
+
+                    <div>
+                        <label for="tel">Teléfono</label>
+                        <input type="number" name="tel" id="tel" required>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="consulta">Escribinos</label> <br>
+                        <textarea name="consulta" id="consulta" cols="40" rows="5" placeholder="Escribí acá tu consulta"
+                            required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+    </section>
+
+    <footer>
+        <p>Seguinos en nuestras redes sociales para enterarte de todas las novedades</p>
+        <section class="footer">
+            <figure>
+                <a href="https://www.instagram.com/bigbentandil/?hl=es-la" target="_blank"><img src="../img/icons-instagram.svg" alt="logo de instagram"></a>
+            </figure>
+            <figure>
+                <a href="https://www.facebook.com/Ingles.1352" target="_blank"><img src="../img/icons-facebook-nuevo.svg" alt="logo de facebook"></a>
+            </figure>
+        </section>
+
+        <section  class="logoWap">
+            <p>¡Contactanos e Inscribite!</p>
+            <figure>
+                <a href="https://wa.me/5492494476319" target="_blank"><img src="../img/icons8-whatsapp.svg" alt="logo de WhatsApp"></a>
+            </figure>
+        </section>
+        <section class="infoFooter">
+            <p>Encontranos en Mitre 657, depto A, Tandil, Buenos Aires, Argentina</p>
+            <p>Horario de atención:
+                Lun a Vie, de 09.00hs a 20hs</p>
+            <p>Podes contactarnos a través de nuestras redes, número de télefono, o podes acercarte al instituto</p>
+            <p>¡Te esperamos!
+                Equipo Big Ben</p>
+        </section>
+    </footer>
+</body>
+
+</html>
