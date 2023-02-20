@@ -82,26 +82,33 @@ body{
 
 .bien div{
     background-color:rgb(226, 255, 59);
+    border-radius: 15%;
 }
+
 
 .fam div{
     background-color: rgb(210, 61, 247);
+    border-radius: 15%;
 }
 
 .gen div {
     background-color: aquamarine;
+    border-radius: 15%;
 }
 
 .trab div{
     background-color: rgb(255, 121, 72);
+    border-radius: 15%;
 }
 
 .equi div{
     background-color: rgb(113, 184, 255);
+    border-radius: 15%;
 }
 
 .uni div{
     background-color: rgb(255, 166, 57);
+    border-radius: 15%;
 }
 
 .card{
