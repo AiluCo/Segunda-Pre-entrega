@@ -5,40 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilo/estilo.css">
     <title>Exámenes Cambridge</title>
 </head>
 
 <body>
 
-    <header>
-        <h1 class="bigBen">BIG BEN SCHOOL OF ENGLISH</h1>
-        <h2 class="bigBen">Learning together</h2>
-        <nav>
-            <ul class="listaIndex">
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./cursos.html">NUESTROS CURSOS</a>
-                </li>
-
-                <li>
-                    <a href="./historia.html">CONOCENOS</a>
-                </li>
-
-                <li>
-                    <a href="./cambridge.html">EXÁMENES CAMBRIDGE</a>
-                </li>
-
-                <li>
-                    <a href="./utn.html">EXÁMENES UTN</a>
-                </li>
-
-                <li>
-                    <a href="./contacto.html">CONTACTANOS</a>
-                </li>
-            </ul>
+    <header class="p-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"
+            style="background-image: linear-gradient(197deg, rgba(200,26,164,1) 23%, rgba(125,3,190,1) 87%);;">
+            <div class=" logosNavBar container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../img/logo-transparente.png" alt="logo Big Ben" width="100" height="100"> <img
+                        src="../img/otroLogo.png" alt="logo Big Ben" width="150" height="70">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navPadre collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="  navbar-nav">
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="../index.html">Inicio</a>
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="./historia.html">Conocenos</a>
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="./cursos.html">Cursos</a>
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="./utn.html">Exámenes UTN</a>
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="./cambridge.html">Exámenes
+                            Cambridge</a>
+                        <a class="btn btn-primary m-2 nav-link fw-bold" href="./contacto.html">Contactanos</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -137,34 +136,43 @@
             allowfullscreen></iframe>
     </section>
 
-  
+
     <footer>
-        <p>Seguinos en nuestras redes sociales para enterarte de todas las novedades</p>
-        <section class="footer">
-            <figure>
-                <a href="https://www.instagram.com/bigbentandil/?hl=es-la" target="_blank"><img src="../img/icons-instagram.svg" alt="logo de instagram"></a>
-            </figure>
-            <figure>
-                <a href="https://www.facebook.com/Ingles.1352" target="_blank"><img src="../img/icons-facebook-nuevo.svg" alt="logo de facebook"></a>
-            </figure>
+        <section class="padreFooter">
+            <div class="cajaLogoFooter">
+                <img class="logoFooter" src="../img/logo-transparente.png" alt="logo Big Ben">
+                <img src="../img/otroLogo.png" alt="logo Big Ben" width="180" height="70">
+            </div>
+    
+            <div class="textoFooter  ">
+                <h6 >Big Ben School of English</h6>
+                <h6>Mitre 657, Tandil, Buenos Aires, Argentina</h6>
+                <h6>WhatsApp: 249 4 476319</h6>
+                <h6>E-mail: bigbentandil@gmail.com</h6>
+    
+            </div>
+    
+            <div class="imgRedes">
+                <a href="https://www.instagram.com/bigbentandil/?hl=es-la" target="_blank"><img
+                        src="../img/icons-instagram.svg" alt="logo de instagram"></a>
+    
+                <a href="https://www.facebook.com/Ingles.1352" target="_blank"><img src="../img/icons-facebook-nuevo.svg"
+                        alt="logo de facebook"></a>
+    
+                <a href="https://wa.me/5492494476319" target="_blank"><img src="../img/icons8-whatsapp.svg"
+                        alt="logo de WhatsApp"></a>
+            </div>
         </section>
 
-        <section  class="logoWap">
-            <p>¡Contactanos e Inscribite!</p>
-            <figure>
-                <a href="https://wa.me/5492494476319" target="_blank"><img src="../img/icons8-whatsapp.svg" alt="logo de WhatsApp"></a>
-            </figure>
-        </section>
-
-        <section class="infoFooter">
-            <p>Encontranos en Mitre 657, depto A, Tandil, Buenos Aires, Argentina</p>
-            <p>Horario de atención: 
-                Lun a Vie, de 09.00hs a 20hs</p>
-            <p>Podes contactarnos a través de nuestras redes, número de télefono, o podes acercarte al instituto</p>
-            <p>¡Te esperamos! 
-                Equipo Big Ben</p>
-        </section>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -79,12 +79,10 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-
 .bien div{
     background-color:rgb(226, 255, 59);
     border-radius: 15%;
 }
-
 
 .fam div{
     background-color: rgb(210, 61, 247);
@@ -133,23 +131,21 @@ footer{
     height: 10vw;
 }
 
-.cajaLogoFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.textoFooter{
-    font-size: xx-small;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+.imgRedes img{
+    width: 4vw ;
+    height: 4vw;
 }
 
-.imgRedes{
+.padreFooter{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.padreFooter div{
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 
@@ -157,7 +153,6 @@ footer{
 .tituloCursos{
     padding: 20px;
     margin:30px;
-    background-color: darkorchid;
     text-align: center;
 }
 
@@ -170,21 +165,18 @@ footer{
     text-align: center;
 }
 
-.cursos img{
-    height: 200px;
-    width: 300px;
+.cursosAlumnos{
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.cursosAlumnos:hover{
+    transform: scale(1.5);
 }
 
 .cursosAlumnos{
-    margin: 20px;
-    padding: 20px;
-    background-color: darkorchid;
+    transition-property: all;
+    transition-duration: 2s;
 }
-
-.cursos h3{
-    margin-bottom: 10px;
-}
-
 
 /* estilo de sección cambridge */
 
@@ -383,10 +375,11 @@ a{
 
 .sumateContacto{
     padding: 20px;
-    margin:30px;
-    background-color: darkorchid;
+    margin:10px;
     text-align: center;
 }
+
+
 
 .seccionesContacto{
     font-weight: bold;
@@ -519,6 +512,11 @@ a{
 
 /* estilo de historia (conocenos) */
 
+.tituloHistoria{
+    margin: 2vw;
+    text-align: center;
+}
+
 .quienesSomosBigBen{
     text-align: center;
     line-height: 30px;
@@ -528,23 +526,71 @@ a{
 .quienesSomos{
     line-height: 30px;
     text-align: justify;
-    margin: 30px;
-
+    margin: 3vw;
 }
 
 .quienesSomos h4{
     color: blueviolet;
-    margin: 10px;
-}
-
-.paola{
-    height: 650px;
-    width: 500px;
 }
 
 .somosBB {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
+.somosBB div{
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.circle1, .circle2, .circle3, .circle4, .circle5{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    border-radius: 50%;
+    height: 3vw;
+    width: 3vw;
+}
+
+.circle1{
+    background-color: blueviolet;
+    transition: all 1s ease-in;
+}
+
+.circle2{
+    background-color: aquamarine;
+    transition: all 1s ease-out;
+}
+
+.circle3{
+    background-color: coral;
+    transition: all 1s ease-in-out;
+}
+
+.circle4{
+    background-color: darkorange;
+    transition: all 1s ease-out;
+}
+
+.circle5{
+    background-color: lawngreen;
+    transition: all 1s ease-in-out;
+}
+
+.circle-container{
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle-container:hover .circle1,
+.circle-container:hover .circle2,
+.circle-container:hover .circle3,
+.circle-container:hover .circle4,
+.circle-container:hover .circle5{
+    transform: translateY(50px) ;
+}
+
