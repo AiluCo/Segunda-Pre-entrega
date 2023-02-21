@@ -615,6 +615,10 @@ a {
         flex-direction: column;
     }
 
+    .imgSomosBB{
+        display: none;
+    }
+
     .img10Años img {
         width: 90vw;
         height: 90vw;
@@ -646,9 +650,13 @@ a {
     }
 
     /* media para la pag HISTORIA|CONOCENOS */
-    .somosBB {
+    .somosBB{
         display: flex;
         flex-direction: column;
+    }
+
+    .quienesSomos{
+        width: 80vw;
     }
 
     /* media para la página CURSOS */
@@ -668,6 +676,10 @@ a {
         /* media para el INDEX */
         .somosBigBen {
             flex-direction: column;
+        }
+
+        .quienesSomos{
+            width: 80vw;
         }
     
         .img10Años img {
@@ -711,23 +723,12 @@ a {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 /* INDEX */
     .imgSomosBB{
-        width: auto;
+        width: 50vw;
         height: auto;
     }
 
-
-
-    /* media para la página CURSOS */
-    .cursos div {
-        margin-top: 3vw;
-        margin-bottom: 3vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
 }
